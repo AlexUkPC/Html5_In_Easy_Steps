@@ -1,0 +1,16 @@
+p.btn{
+    width: 192px;
+    height: 43px;
+    background: url(05.usingImagesAsHyperlinks-bg.png);
+}
+p.btn a{
+    display: block;
+    width: 192px;
+    height: 43px;
+}
+p.btn a img{
+    border: 0px;
+}
+p.btn a:hover img{
+    visibility: hidden;
+}

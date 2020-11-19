@@ -1,0 +1,4 @@
+a:hover{background: yellow;}
+a:active{background: lime;}
+a:focus{background: lime;}
+a:visited{background: aqua;}
