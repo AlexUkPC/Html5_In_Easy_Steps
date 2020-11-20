@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Column Styling Example</title>
+    <link rel="stylesheet" href="10.settingColumnWidth.css">
+</head>
+<body>
+    <table id="jfk">
+        <caption>Breakfast Flights</caption>
+        <colgroup class="sidebar">
+            <col>
+        </colgroup>
+        <colgroup class="info">
+            <col class="stripe"><col><col class="stripe">
+        </colgroup>
+        <colgroup class="info">
+            <col><col class="stripe">
+        </colgroup>
+        <thead><tr><th colspan="6">New York(JFK) - Los Angeles(LAX)</th></tr></thead>
+        <tfoot>
+            <tr>
+                <th colspan="6">
+                    <ul>
+                        <li>Flights are Non-Stop</li>
+                        <li>Times are Local</li>
+                        <li>Tickets are 1-Way</li>
+                        <li>Prices Include Tax</li>
+                    </ul>
+                </th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr><th><th>American<br>Airlines<th>Delta<br>Air Lines<th>Alaska<br>Airlines<th>United<th>Continental</th></tr>
+            <tr><th>Departure</th><td>08:30<td>07:00<td>07:30<td>07:55<td>08:35</td></tr>
+            <tr><th>Arrival</th><td>12:05<td>10:30<td>10:45<td>11:30<td>12:00</td></tr>
+            <tr><th>Duration</th><td>6h35min<td>6h30min<td>6h15min<td>6h35min<td>6h25min</td></tr>
+            <tr><th>Price</th><td>$179<td>$195<td>$235<td>$225<td>$189</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
