@@ -1,0 +1,12 @@
+*{padding: 0;margin: 0;border: 0;}
+div#wrapper{
+    margin: auto;
+    background: rgb(236, 236, 236);
+    width: 800px;
+    height: 1000px;
+}
+.sized{width: 40%;}
+.center{margin: auto;}
+.center-text{text-align: center;}
+h1{border: 1px solid fuchsia;}
+.sized, .center, .center-text{border: 1px solid green;}

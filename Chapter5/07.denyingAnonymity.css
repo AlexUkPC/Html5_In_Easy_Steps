@@ -1,0 +1,7 @@
+nav{
+    float: left;
+    padding: 0 30px 130px 30px;
+    height: 58px;
+}
+nav,section{ border: 1px solid green;}
+header,footer{ border: 1px solid fuchsia;}

@@ -1,0 +1,9 @@
+footer#page{
+    margin-top: 20px;
+}
+footer{
+    border: 1px solid fuchsia;
+}
+article{
+    height: 600px;
+}

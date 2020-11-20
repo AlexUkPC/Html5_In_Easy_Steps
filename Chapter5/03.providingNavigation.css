@@ -1,0 +1,13 @@
+#logo{
+    float: left;
+}
+#horizontal{
+    padding-left: 100px;
+    display: block;
+    border: 1px solid fuchsia;
+}
+#vertical{
+    float: left;
+    padding: 0 30px 130px 30px;
+    border: 1px solid fuchsia;
+}
