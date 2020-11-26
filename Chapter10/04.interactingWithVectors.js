@@ -1,19 +1,18 @@
 var svgDoc, svgTxt, svgBtn, htmTxt;
-function init()
-{
+function init() {
     svgDoc = document.getElementById("svgDoc").getSVGDocument();
-    svgTxt = document.getElementById("svgTxt");
-    svgBtn = document.getElementById("svgBtn");
+    svgTxt = svgDoc.getElementById("svgTxt");
+    svgBtn = svgDoc.getElementById("svgBtn");
     htmTxt = document.getElementById("htmTxt");
     svgDoc.getElementById("svgBtn").onclick = send2htm;
     document.getElementById("htmBtn").onclick = send2svg;
 }
-function send2svg(){
+window.onload = init;
+function send2svg() {
     svgTxt.lastChild.replaceWholeText(htmTxt.value);
-    htmTxt.value="";
+    htmTxt.value = "";
 }
-function send2htm(){
+function send2htm() {
     htmTxt.value = svgTxt.lastChild.wholeText;
     svgTxt.lastChild.replaceWholeText("SVG Text");
 }
-onload=init;
